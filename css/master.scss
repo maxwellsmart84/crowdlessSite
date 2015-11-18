@@ -1,8 +1,21 @@
 
-body  {
-  background-image: url(../img/bar.png);
+// #bckgrnd {
+  // background-color: rgb(127, 126, 128);
+  // background-image: url(../img/bar.png);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // overflow: hidden;
+  // background-attachment:fixed;
+  // position:absolute;
+//
+//   }
 
-  }
+#bckImg img.bgM {
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  z-index:-9999;
+}
 
 .col-centered {
     float: none;
@@ -17,6 +30,14 @@ body  {
 .jumbotron  h1{
   text-align: center;
   font-family: "Comfortaa"
+}
+
+#logo {
+  position:relative;
+  left:28%;
+  img{
+    width:42%;
+  }
 }
 
 .about {
