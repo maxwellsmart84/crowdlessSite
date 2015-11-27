@@ -10,11 +10,25 @@
 //
 //   }
 
-#bckImg img.bgM {
-  background-repeat: no-repeat;
-  background-size: cover;
+#bckImg, img.bGM {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index:-9999;
+}
+
+body {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container {
   overflow: hidden;
-  z-index:-9999;
 }
 
 .col-centered {
