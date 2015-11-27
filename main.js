@@ -38,8 +38,12 @@ var page= {
         url: 'https://sheetsu.com/apis/f799279e',
         crossDomain: true,
         jsonp: false,
-        data: formData,
-        dataType: "json"
+        data: JSON.stringify(formData),
+        dataType: "json",
+        contentType: "application/json",
+        success: function (data){
+          console.log(data);
+        }
       });
     });
   }

@@ -31,7 +31,8 @@ body {
 .jumbotron h1 {
   text-align: center;
   font-family: "Comfortaa";
-  font-size: 60px; }
+  font-size: 60px;
+  text-shadow: 0 0 2px #a8a8a7, 0 0 5px transparent, 0 0 8px #a8a8a7; }
 
 #logo {
   position: relative;
@@ -59,7 +60,7 @@ label.control-label {
   float: left; }
 
 footer {
-  margin: 150px; }
+  margin: 106px; }
 
 .hidden-class {
   display: none; }
