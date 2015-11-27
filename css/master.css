@@ -42,6 +42,8 @@ body {
   text-shadow: 0 0 2px #a8a8a7, 0 0 5px #a8a8a7, 0 0 8px #a8a8a7; }
   #sbtBtn:hover {
     color: black; }
+  #sbtBtn:active {
+    border: 0px; }
 
 #logo {
   position: relative;
@@ -52,9 +54,6 @@ body {
 
 #aboutText {
   font-size: 1.2em; }
-
-#myModal {
-  background-color: black; }
 
 .modal-title {
   text-align: center; }

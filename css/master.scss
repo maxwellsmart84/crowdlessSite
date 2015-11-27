@@ -66,6 +66,9 @@ body {
    &:hover {
      color:black;
    }
+   &:active {
+     border:0px;
+   }
  }
 
 #logo {
@@ -80,9 +83,7 @@ body {
   font-size: 1.2em;
 }
 
-#myModal {
-  background-color: black;
-}
+
 
 .modal-title {
   text-align: center;
