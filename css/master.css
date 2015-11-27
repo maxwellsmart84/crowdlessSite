@@ -50,6 +50,9 @@ body {
   #logo img {
     width: 27%; }
 
+#aboutText {
+  font-size: 1.2em; }
+
 #myModal {
   background-color: black; }
 
