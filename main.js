@@ -45,6 +45,11 @@ var page= {
           $('.form-group').addClass("hidden-class");
           $('#formSubmitBtn').addClass("hidden-class");
           $(".postSignUp").removeClass("hidden-class");
+        },
+        error: function (){
+          $('.form-group').addClass("hidden-class");
+          $('#formSubmitBtn').addClass("hidden-class");
+          $(".postSignUpErr").removeClass("hidden-class");
         }
       });
     });
