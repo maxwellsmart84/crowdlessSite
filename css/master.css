@@ -32,7 +32,7 @@ body {
   text-align: center;
   font-family: "Comfortaa";
   font-size: 60px;
-  text-shadow: 0 0 2px #a8a8a7, 0 0 5px transparent, 0 0 8px #a8a8a7; }
+  text-shadow: 0 0 2px #a8a8a7, 0 0 5px #a8a8a7, 0 0 8px #a8a8a7; }
 
 #logo {
   position: relative;
@@ -41,6 +41,21 @@ body {
   #logo img {
     width: 27%; }
 
+#myModal {
+  background-color: black; }
+
+.modal-title {
+  text-align: center; }
+  .modal-title #span-logo {
+    font-family: "Comfortaa";
+    float: left; }
+  .modal-title #span-header {
+    position: relative;
+    left: -40px; }
+
+#postSignUp {
+  text-align: center; }
+
 .about {
   color: white;
   margin-top: -5%; }
@@ -48,7 +63,7 @@ body {
     text-align: center; }
 
 #btnCont {
-  margin-left: 44.5%; }
+  margin-left: 41%; }
 
 #aboutText {
   padding: 3%;

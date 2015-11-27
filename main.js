@@ -42,7 +42,9 @@ var page= {
         dataType: "json",
         contentType: "application/json",
         success: function (data){
-          console.log(data);
+          $('.form-group').addClass("hidden-class");
+          $('#formSubmitBtn').addClass("hidden-class");
+          $(".postSignUp").removeClass("hidden-class");
         }
       });
     });
