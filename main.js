@@ -12,6 +12,7 @@ var page= {
 
   event: function(){
     page.cycleBckg();
+    page.modalSubmit();
   },
 
   cycleBckg: function(){
@@ -23,6 +24,24 @@ var page= {
       timeout: 3800
     });
   },
-
+  modalSubmit: function (){
+    $('body').on('submit','#betaSignUp', function(event){
+      event.preventDefault();
+      var formData = {
+        email: $('#inputEmail').val(),
+        firstName: $('#inputFirstName').val(),
+        lastName: $('#inputLastName').val()
+      };
+      console.log(formData);
+      $.ajax({
+        type: 'POST',
+        url: 'https://sheetsu.com/apis/f799279e',
+        crossDomain: true,
+        jsonp: false,
+        data: formData,
+        dataType: "json"
+      });
+    });
+  }
 
 };

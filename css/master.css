@@ -14,11 +14,15 @@ body {
   max-height: 100%; }
 
 .container {
-  overflow: hidden; }
+  overflow: hidden;
+  margin-top: -7%; }
 
 .col-centered {
   float: none;
   margin: 0 auto; }
+
+.col-custom-md-2 {
+  width: 17.3%; }
 
 .jumbotron {
   background-color: transparent;
@@ -26,16 +30,19 @@ body {
 
 .jumbotron h1 {
   text-align: center;
-  font-family: "Comfortaa"; }
+  font-family: "Comfortaa";
+  font-size: 60px; }
 
 #logo {
   position: relative;
-  left: 28%; }
+  left: 36%;
+  top: 95px; }
   #logo img {
-    width: 42%; }
+    width: 27%; }
 
 .about {
-  color: white; }
+  color: white;
+  margin-top: -5%; }
   .about h1 {
     text-align: center; }
 
@@ -47,6 +54,12 @@ body {
   border-left: white 2px solid;
   border-right: white 2px solid;
   margin-bottom: 2%; }
+
+label.control-label {
+  float: left; }
+
+footer {
+  margin: 150px; }
 
 .hidden-class {
   display: none; }

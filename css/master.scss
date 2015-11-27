@@ -10,6 +10,7 @@
 //
 //   }
 
+
 #bckImg, img.bGM {
     min-height: 100%;
     min-width: 1024px;
@@ -29,6 +30,7 @@ body {
 
 .container {
   overflow: hidden;
+  margin-top: -7%;
 }
 
 .col-centered {
@@ -36,26 +38,33 @@ body {
     margin: 0 auto;
 }
 
+.col-custom-md-2 {
+  width: 17.3%;
+}
+
 .jumbotron {
   background-color: transparent;
   color:white;
 }
 
-.jumbotron  h1{
+.jumbotron  h1 {
   text-align: center;
-  font-family: "Comfortaa"
+  font-family: "Comfortaa";
+  font-size: 60px
 }
 
 #logo {
-  position:relative;
-  left:28%;
+  position: relative;
+  left: 36%;
+  top: 95px;
   img{
-    width:42%;
+    width:27%;
   }
 }
 
 .about {
   color:white;
+  margin-top: -5%;
   h1 {
     text-align: center;
   }
@@ -74,7 +83,13 @@ body {
 
 }
 
+label.control-label {
+  float: left;
+}
 
+footer {
+  margin:150px;
+}
 
 .hidden-class {
   display:none;
