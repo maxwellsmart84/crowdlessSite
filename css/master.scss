@@ -10,7 +10,7 @@
 //
 //   }
 
-
+$crowdlesswhite: #fffef0;
 #bckImg, img.bGM {
     min-height: 100%;
     min-width: 1024px;
@@ -53,7 +53,8 @@ body {
   font-size: 60px;
   text-shadow: 0 0 2px rgb(168, 168, 167),
                0 0 5px rgb(168, 168, 167),
-               0 0 8px rgb(168, 168, 167);
+               0 0 8px rgb(168, 168, 167),
+               0 0 13px rgb(168, 168, 167);
 }
  #sbtBtn {
    font-size: 27px;
@@ -62,7 +63,8 @@ body {
    border-color: transparent;
    text-shadow: 0 0 2px rgb(168, 168, 167),
                 0 0 5px rgb(168, 168, 167),
-                0 0 8px rgb(168, 168, 167);
+                0 0 8px rgb(168, 168, 167),
+                0 0 13px rgb(168, 168, 167);
    &:hover {
      color:black;
    }

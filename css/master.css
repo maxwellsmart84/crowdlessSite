@@ -32,14 +32,14 @@ body {
   text-align: center;
   font-family: "Comfortaa";
   font-size: 60px;
-  text-shadow: 0 0 2px #a8a8a7, 0 0 5px #a8a8a7, 0 0 8px #a8a8a7; }
+  text-shadow: 0 0 2px #a8a8a7, 0 0 5px #a8a8a7, 0 0 8px #a8a8a7, 0 0 13px #a8a8a7; }
 
 #sbtBtn {
   font-size: 27px;
   font-family: "Comfortaa";
   background-color: rgba(150, 150, 149, 0.74);
   border-color: transparent;
-  text-shadow: 0 0 2px #a8a8a7, 0 0 5px #a8a8a7, 0 0 8px #a8a8a7; }
+  text-shadow: 0 0 2px #a8a8a7, 0 0 5px #a8a8a7, 0 0 8px #a8a8a7, 0 0 13px #a8a8a7; }
   #sbtBtn:hover {
     color: black; }
   #sbtBtn:active {
