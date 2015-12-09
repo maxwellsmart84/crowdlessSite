@@ -1,6 +1,6 @@
 #bckImg, img.bGM {
   max-width: 100%;
-  background-size: cover;
+  background-size: contain;
   min-height: 100%;
   min-width: 1024px;
   width: 100%;
@@ -12,7 +12,7 @@
   z-index: -9999; }
 
 #bckImg {
-  background-size: cover;
+  background-size: contain;
   max-width: 100%;
 }
 body {
