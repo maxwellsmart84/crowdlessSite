@@ -58,8 +58,8 @@ body {
   outline: none; }
 
 #logo img {
-  position: relative;
-  top: 90px;
+  margin-top: 20%;
+  margin-bottom: -8%;
   width: 302px; }
 
 #aboutText {
