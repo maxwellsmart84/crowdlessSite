@@ -1,7 +1,7 @@
 {
   "name": "crowdless_site",
   "version": "1.0.0",
-  "description": "<h1>Crowdless Site</h1>",
+  "description": "",
   "main": "server.js",
   "dependencies": {
     "bower": "^1.6.9",
