@@ -1,3 +1,8 @@
 <h1>Crowdless Site</h1>
+To run app :
 
-<p>Lets get retarded in here</p>
+1.)Install NPM
+2.) npm install
+3.) node run start
+
+Site runs on localhost:3001
