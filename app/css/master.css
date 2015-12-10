@@ -57,14 +57,17 @@ body {
 #sbtBtn:focus {
   outline: none; }
 
-#logo img {
-  margin-top: 20%;
-  margin-bottom: -8%;
-  width: 302px; }
+#mc_embed_signup form {
+  background-color: rgba(150, 150, 149, 0.74);
+  color: white;
+  opacity: 0.74; }
 
-#aboutText {
-  font-size: 1.2em;
-  text-shadow: 0 0 2px #373638, 0 0 5px #373638, 0 0 8px #373638, 0 0 13px #373638, 0 0 15px #373638, 0 0 20px #373638; }
+.modal-body {
+  background-color: rgba(150, 150, 149, 0.74); }
+
+.modal-header {
+  background-color: rgba(150, 150, 149, 0.74);
+  color: white; }
 
 .modal-title {
   text-align: center; }
@@ -76,6 +79,15 @@ body {
 .modal-title #span-header {
   position: relative;
   left: -40px; }
+
+#logo img {
+  margin-top: 20%;
+  margin-bottom: -8%;
+  width: 302px; }
+
+#aboutText {
+  font-size: 1.2em;
+  text-shadow: 0 0 2px #373638, 0 0 5px #373638, 0 0 8px #373638, 0 0 13px #373638, 0 0 15px #373638, 0 0 20px #373638; }
 
 #postSignUp {
   text-align: center; }
