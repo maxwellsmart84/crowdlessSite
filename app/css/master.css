@@ -60,24 +60,13 @@ body {
 #sbtBtn:focus {
   outline: none; }
 
-#mc_embed_signup form {
-  background-color: rgba(150, 150, 149, 0.74);
-  color: white;
-  opacity: 0.74; }
-
-.modal-body {
-  background-color: rgba(150, 150, 149, 0.74); }
-
-.modal-header {
-  background-color: rgba(150, 150, 149, 0.74);
-  color: white; }
-
 .modal-title {
   text-align: center; }
 
 .modal-title #span-logo {
   font-family: "Comfortaa";
-  float: left; }
+  float: left;
+  padding-right: 10%; }
 
 .modal-title #span-header {
   position: relative;
