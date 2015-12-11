@@ -40,6 +40,9 @@ body {
   font-size: 5em;
   letter-spacing: 0.1em;
   text-shadow: 0 0 2px #a8a8a7, 0 0 5px #a8a8a7, 0 0 8px #a8a8a7, 0 0 13px #a8a8a7; }
+  @media screen and (max-width: 400px) {
+    .jumbotron h1 {
+      font-size: 4em; } }
 
 #sbtBtn {
   font-size: 2em;
