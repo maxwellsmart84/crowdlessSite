@@ -102,8 +102,12 @@ body {
 .about h1 {
   text-align: center; }
 //
-// #btnCont {
-//   margin-left: 38%; }
+#btnCont {
+  width:16%;
+  @media screen and (max-width: $break-small) {
+    width: 48%;
+  }
+}
 
 #aboutText {
   padding: 3%;

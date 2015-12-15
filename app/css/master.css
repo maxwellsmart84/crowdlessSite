@@ -91,6 +91,12 @@ body {
 .about h1 {
   text-align: center; }
 
+#btnCont {
+  width: 16%; }
+  @media screen and (max-width: 400px) {
+    #btnCont {
+      width: 48%; } }
+
 #aboutText {
   padding: 3%;
   border-left: white 2px solid;
